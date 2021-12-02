@@ -5,15 +5,16 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/image"
+        android:id="@+id/product_image"
         android:layout_width="match_parent"
         android:layout_height="362dp"
         android:layout_gravity="top"
         android:background="@color/design_default_color_on_secondary"
         android:scaleType="centerCrop"
-         />
+        app:srcCompat="@drawable/bg_card" />
 
     <ScrollView
+        android:id="@+id/product_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fillViewport="true">
@@ -30,12 +31,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_card"
+                android:background="@color/white"
                 android:orientation="vertical">
 
                 <include layout="@layout/fragment_details_summary_title" />
-                <include layout="@layout/fragment_details_summary_nutriscore" />
-                <include layout="@layout/fragment_details_summary_quantity" />
+
+                <include layout="@layout/fragment_details_summary_score" />
+
+                <com.example.myapplication.ItemValueView
+                    android:id="@+id/textview_helloworld"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:dividerVisibility="visible"
+                    app:title="Quantité"
+                    app:value="10" />
 
             </LinearLayout>
 
@@ -43,5 +52,11 @@
 
 
     </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/product_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
 
 </FrameLayout>

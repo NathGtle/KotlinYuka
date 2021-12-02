@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
-
-    <string name="novascore_1">Produits alimentaires</string>
-    <string name="novascore_2">Produits alimentaires</string>
-    <string name="novascore_3">Produits alimentaires</string>
-    <string name="novascore_4">Produits alimentaires</string>
-
+    <string name="novascore_1">Aliments non transformés ou transformés minimalement</string>
+    <string name="novascore_2">Ingrédients culinaires transformés</string>
+    <string name="novascore_3">Aliments transformés</string>
+    <string name="novascore_4">Produits alimentaires et boissons ultra-transformés</string>
 </resources>

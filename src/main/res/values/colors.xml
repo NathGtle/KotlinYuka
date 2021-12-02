@@ -6,15 +6,5 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="blue">#080040</color>
-    <color name="blue_dark">#050027</color>
-    <color name="yellow">#FBAF02</color>
-    <color name="blue_light">#41C7DF</color>
-    <color name="gray_1">#F6F6F8</color>
-    <color name="gray_2">#B8BBC6</color>
-    <color name="gray_3">#6A6A6A</color>
-    <color name="white">#FFFFFF</color>
-    <color name="nutrient_level_low">#63993F</color>
-    <color name="nutrient_level_moderate">#997B3F</color>
-    <color name="nutrient_level_high">#993F3F</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>
